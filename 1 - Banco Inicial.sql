@@ -21,3 +21,4 @@ CREATE TABLE aluno_curso (
 	curso_id INTEGER NOT NULL REFERENCES curso(id),
 	PRIMARY KEY (aluno_id, curso_id)
 );
+
